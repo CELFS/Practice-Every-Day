@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var mid = (0 + 3) / 2;
+        console.log(mid); // 1.5
+
+        var Arr = [11, 22, 33];
+        console.log(Arr[mid]); // undefined
+
+        mid = parseInt(mid) // 1 向下（保留整数部分）
+        mid = Math.ceil(mid) // 2 向上取整
+        mid = Math.round(mid) // 2 四舍五入
+        mid = Math.floor(mid) // 1 向下（保留整数部分）
+    </script>
+</body>
+
+</html>
